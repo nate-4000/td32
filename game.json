@@ -71,15 +71,34 @@
     ]
   },
   {
-    "dialog": "you shoot the lock on the door. the door opens, and you walk thru it.",
-    "options": []
+    "dialog": "you shoot the lock on the door. the door opens, and you walk thru it, finding a person wearing a bulletproof vest and looking right at you.",
+    "options": [
+      [ 16, "run away" ],
+      [ 17, "run past him" ],
+      [ 18, "throw the cheese at him"]
+    ]
   },
   {
     "dialog": "fail\n its still just cheese. what do you think the cheese is supposed to do?",
     "options": [ [ 12, "retry" ] ]
   },
   {
-    "dialog": "fail\n the bomb explodes the door, and leaves a hole in the wall too, but you fly backwards into the lasers and get diced."
+    "dialog": "fail\n the bomb explodes the door, and leaves a hole in the wall too, but you fly backwards into the lasers and get diced.",
     "options": [ [ 12, "retry" ] ]
+  },
+  {
+    "dialog": "fail\n he catches you and throws you in the trashcan.",
+    "options": [ [ 13, "retry" ] ]
+  },
+  {
+    "dialog": "it works, and he is too confused to run for you. you are now in an empty office area, full of cubicles, however an elevator is on the opposite side of the room from you.",
+    "options": [
+      [ 19, "go to the elevator" ],
+      [ 20, "inspect the cubicles" ]
+    ]
+  },
+  {
+    "dialog": "fail\n the cheese bounces off of him, as he walks over and throws you into a garbage chute.",
+    "options": [ [13, "retry"] ]
   }
 ]

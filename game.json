@@ -1,38 +1,64 @@
 [
-{
-"dialog": "welcome to td32",
-"options": [[1, "play"]]
-},
-{
-"dialog": "you are a small robot, stuck in a cage.",
-"options": [[1, "wait"], [2, "rattle the cage"], [3, "try to pry the bars open"]]
-},
-{
-"dialog": "fail\n nothing happened, but you did get exausted.",
-"options": [[1, "retry"]]
-},
-{
-"dialog": "the bars open, just enough to let you through.\nyou climb out and find yourself in a dark room, with a drawer.",
-"options": [[4, "open the drawer"], [5, "turn on your flashlight to see better"]],
-},
-{
-"dialog": "there seems to be a few objects inside.\nyou throw them into your cargo and keep them for later.",
-"options": [[6, "ok"]],
-},
-{
-"dialog": "fail\n you instantly ran out of battery. it seems you forgot to enable low power mode!",
-"options": [[3, "retry"]]
-},
-{
-"dialog": "you are still in the dark room, but you have some things you think could help you out.",
-"options": [[7, "gun"], [8, "bomb"], [9, "cheese"], [10, "loaf of bread"]]
-},
-{
-"dialog": "fail\n the gun goes off with a loud bang and you are shot backwards, but the gun did nothing.\nit seems the door is bulletproof." , 
-"options": [[6, "retry"]]
-},
-{
-"dialog": "fail\n the bomb explodes the door off, but it also explodes you.",
-"options": [[6, "retry"]]
-}
+  {
+    "dialog": "welcome to td32",
+    "options": [ [ 1, "play" ] ]
+  },
+  {
+    "dialog": "you are a small robot, stuck in a cage.",
+    "options": [
+      [ 1, "wait" ],
+      [ 2, "rattle the cage" ],
+      [ 3, "try to pry the bars open" ]
+    ]
+  },
+  {
+    "dialog": "fail\n nothing happened, but you did get exausted.",
+    "options": [ [ 1, "retry" ] ]
+  },
+  {
+    "dialog": "the bars open, just enough to let you through.\nyou climb out and find yourself in a dark room, with a drawer.",
+    "options": [
+      [ 4, "open the drawer" ],
+      [ 5, "turn on your flashlight to see better" ]
+    ]
+  },
+  {
+    "dialog": "there seems to be a few objects inside.\nyou throw them into your cargo and keep them for later.",
+    "options": [ [ 6, "ok" ] ]
+  },
+  {
+    "dialog": "fail\n you instantly ran out of battery. it seems you forgot to enable low power mode!",
+    "options": [ [ 3, "retry" ] ]
+  },
+  {
+    "dialog": "you are still in the dark room, but you have some things you think could help you out.",
+    "options": [
+      [ 7, "gun" ],
+      [ 10, "loaf of bread" ],
+      [ 8, "bomb" ],
+      [ 9, "cheese" ]
+    ]
+  },
+  {
+    "dialog": "fail\n the gun goes off with a loud bang and you are shot backwards, but the gun did nothing.\nit seems the door is bulletproof.",
+    "options": [ [ 6, "retry" ] ]
+  },
+  {
+    "dialog": "fail\n the bomb explodes the door off, but it also explodes you.",
+    "options": [ [ 6, "retry" ] ]
+  },
+  {
+    "dialog": "fail\n its just cheese. what did you think it would do?",
+    "options": [ [ 6, "retry" ] ]
+  },
+  {
+    "dialog": "you have a stroke of genius and shoot the bread with the gun. the bread explodes and leaves flaming bread crumbs everywhere, but the door malfunctioned due to being breaded.\n you walk thru the door and find a room of lasers.",
+    "options": [
+      [ 12, "dodge the lasers" ],
+      [ 11, "walk thru the lasers" ]
+    ]
+  },
+  {
+    
+  }
 ]

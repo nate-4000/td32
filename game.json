@@ -60,6 +60,26 @@
   },
   {
     "dialog": "fail\n it appears that you are made of plastic and the lasers cut right thru you.",
-    "options": [ [10, "retry"] ]
+    "options": [ [ 10, "retry" ] ]
+  },
+  {
+    "dialog": "somehow the lasers did not cut you, but you made it thru and see yet another door.",
+    "options": [
+      [ 13, "gun" ],
+      [ 14, "cheese" ],
+      [ 15, "bomb" ]
+    ]
+  },
+  {
+    "dialog": "you shoot the lock on the door. the door opens, and you walk thru it.",
+    "options": []
+  },
+  {
+    "dialog": "fail\n its still just cheese. what do you think the cheese is supposed to do?",
+    "options": [ [ 12, "retry" ] ]
+  },
+  {
+    "dialog": "fail\n the bomb explodes the door, and leaves a hole in the wall too, but you fly backwards into the lasers and get diced."
+    "options": [ [ 12, "retry" ] ]
   }
 ]

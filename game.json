@@ -16,14 +16,14 @@
     "options": [ [ 1, "retry" ] ]
   },
   {
-    "dialog": "the bars open, just enough to let you through.\nyou climb out and find yourself in a dark room, with a drawer.",
+    "dialog": "the bars open, just enough to let you through.\n you climb out and find yourself in a dark room, with a drawer.",
     "options": [
       [ 4, "open the drawer" ],
       [ 5, "turn on your flashlight to see better" ]
     ]
   },
   {
-    "dialog": "there seems to be a few objects inside.\nyou throw them into your cargo and keep them for later.",
+    "dialog": "there seems to be a few objects inside.\n you throw them into your cargo and keep them for later.",
     "options": [ [ 6, "ok" ] ]
   },
   {
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "dialog": "fail\n the gun goes off with a loud bang and you are shot backwards, but the gun did nothing.\nit seems the door is bulletproof.",
+    "dialog": "fail\n the gun goes off with a loud bang and you are shot backwards, but the gun did nothing. \n it seems the door is bulletproof.",
     "options": [ [ 6, "retry" ] ]
   },
   {
@@ -59,6 +59,7 @@
     ]
   },
   {
-    
+    "dialog": "fail\n it appears that you are made of plastic and the lasers cut right thru you.",
+    "options": [ [10, "retry"] ]
   }
 ]

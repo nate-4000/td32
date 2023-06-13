@@ -4,7 +4,7 @@ import gas
 game_file = gas.get("game.json")
 
 def create_graph(game_file):
-    dot = graphviz.Digraph(format='png')
+    dot = graphviz.Digraph(format='svg')
     dot.attr(rankdir='LR')
     for index, item in enumerate(game_file):
         dialog = item['dialog']

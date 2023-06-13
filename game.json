@@ -75,7 +75,7 @@
     "options": [
       [ 16, "run away" ],
       [ 17, "run past him" ],
-      [ 18, "throw the cheese at him"]
+      [ 18, "throw the cheese at him" ]
     ]
   },
   {
@@ -99,6 +99,81 @@
   },
   {
     "dialog": "fail\n the cheese bounces off of him, as he walks over and throws you into a garbage chute.",
-    "options": [ [13, "retry"] ]
+    "options": [ [ 13, "retry" ] ]
+  },
+  {
+    "dialog": "the elevator seems to have a keycard slot.\n pressing the buttons does nothing.",
+    "options": [ [ 20, "go back and inspect the cubicles" ] ]
+  },
+  {
+    "dialog": "inside one of the cubicles you found a keycard belonging to a man named Jeffery Hinkstein.\n there is a note on the back, written in pencil reading:\nbackup codes: 199234, 234292, 222856",
+    "options": [ [ 21, "ok" ] ]
+  },
+  {
+    "dialog": "back at the elevator, you put in the keycard, and the keycard spits back out. you hear a whirring noise and the panel lights up.\nrelieved, you call the elevator. it arrives and you get in. which button do you press?",
+    "options": [
+      [ 27, "STAF" ],
+      [ 22, "LBBY" ],
+      [ 23, "OFFI" ],
+      [ 24, "FCTR" ],
+      [ 25, "POWR" ],
+      [ 26, "HSNG" ]
+    ]
+  },
+  {
+    "dialog": "fail\n a person in a steel-gray sweater pushes a button behind their desk, and you are suddenly locked in a cage and thrown into boiling water.",
+    "options": [ [ 21, "retry" ] ]
+  },
+  {
+    "dialog": "fail\n nothing happens. you are already on that floor.",
+    "options": [ [ 21, "retry" ] ]
+  },
+  {
+    "dialog": "being a fully automatic floor, you see a large number of machines doing unusual things.\n in the back there is a machine with an exposed mechanical belt. what do you throw in it?",
+    "options": [
+      [ 28, "bomb" ],
+      [ 29, "gun" ],
+      [ 30, "cheese" ]
+    ]
+  },
+  {
+    "dialog": "fail\n a couple of what seems to be robots with grey crt television heads, wearing steel-gray sweaters, larger than you, grab you and throw you down a chute into boiling water.",
+    "options": [ [ 21, "retry" ] ]
+  },
+  {
+    "dialog": "fail\n a mixed bunch of people and robots who appear to have been having lunch, grab you and throw you down a large chute into boiling water.",
+    "options": [ [ 21, "retry" ] ]
+  },
+  {
+    "dialog": "fail\n what appears to be a sentient crystal with floating hands, looks at you, while a large red warning appears in your vision saying \"WARNING: HIGH RADIATION\"\n your internals grind down, your vision accumulates salt and pepper noise, and you pass out from the radiation.",
+    "options": [ [ 21, "retry" ] ]
+  },
+  {
+    "dialog": "fail\n the bomb jams the machine but also explodes on the way in.",
+    "options": [ [ 24, "retry" ] ]
+  },
+  {
+    "dialog": "fail\n the gun misfires inside the machine and hits a gas tank. it explodes and you get incinerated.",
+    "options": [ [ 24, "retry" ] ]
+  },
+  {
+    "dialog": "the cheese gums up the machine and it stops. you hear a faint beeping and the elevator starts going down to another floor.",
+    "options": [
+      [ 31, "hide inside a machine" ],
+      [ 33, "jump down the elevator shaft" ],
+      [ 32, "find a window" ]
+    ]
+  },
+  {
+    "dialog": "fail\n you get turned into grated plastic. try not to hide in the wheat farm next time.",
+    "options": [ [ 30, "retry" ] ]
+  },
+  {
+    "dialog": "fail\n turns out this building is solid iron. you are not escaping that way.",
+    "options": [ [ 30, "retry" ] ]
+  },
+  {
+    "dialog": "falling down the elevator shaft, you land on top of the elevator and climb into the lobby. it looks like everyone left to go check. you walk outside, taking in the early morning sunlight.\n so far this is the end of the game. more will come later.",
+	"options": [ [ 0, "replay"] ]
   }
 ]

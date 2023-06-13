@@ -33,6 +33,37 @@ digraph {
 	17 [label="it works, and he is too confused to run for you. you are now in an empty office area, full of cubicles, however an elevator is on the opposite side of the room from you."]
 	18 [label="fail
  the cheese bounces off of him, as he walks over and throws you into a garbage chute."]
+	19 [label="the elevator seems to have a keycard slot.
+ pressing the buttons does nothing."]
+	20 [label="inside one of the cubicles you found a keycard belonging to a man named Jeffery Hinkstein.
+ there is a note on the back, written in pencil reading:
+backup codes: 199234, 234292, 222856"]
+	21 [label="back at the elevator, you put in the keycard, and the keycard spits back out. you hear a whirring noise and the panel lights up.
+relieved, you call the elevator. it arrives and you get in. which button do you press?"]
+	22 [label="fail
+ a person in a steel-gray sweater pushes a button behind their desk, and you are suddenly locked in a cage and thrown into boiling water."]
+	23 [label="fail
+ nothing happens. you are already on that floor."]
+	24 [label="being a fully automatic floor, you see a large number of machines doing unusual things.
+ in the back there is a machine with an exposed mechanical belt. what do you throw in it?"]
+	25 [label="fail
+ a couple of what seems to be robots with grey crt television heads, wearing steel-gray sweaters, larger than you, grab you and throw you down a chute into boiling water."]
+	26 [label="fail
+ a mixed bunch of people and robots who appear to have been having lunch, grab you and throw you down a large chute into boiling water."]
+	27 [label="fail
+ what appears to be a sentient crystal with floating hands, looks at you, while a large red warning appears in your vision saying \"WARNING: HIGH RADIATION\"
+ your internals grind down, your vision accumulates salt and pepper noise, and you pass out from the radiation."]
+	28 [label="fail
+ the bomb jams the machine but also explodes on the way in."]
+	29 [label="fail
+ the gun misfires inside the machine and hits a gas tank. it explodes and you get incinerated."]
+	30 [label="the cheese gums up the machine and it stops. you hear a faint beeping and the elevator starts going down to another floor."]
+	31 [label="fail
+ you get turned into grated plastic. try not to hide in the wheat farm next time."]
+	32 [label="fail
+ turns out this building is solid iron. you are not escaping that way."]
+	33 [label="falling down the elevator shaft, you land on top of the elevator and climb into the lobby. it looks like everyone left to go check. you walk outside, taking in the early morning sunlight.
+ so far this is the end of the game. more will come later."]
 	0 -> 1 [label=play]
 	1 -> 1 [label=wait]
 	1 -> 2 [label="rattle the cage"]
@@ -64,4 +95,28 @@ digraph {
 	17 -> 19 [label="go to the elevator"]
 	17 -> 20 [label="inspect the cubicles"]
 	18 -> 13 [label=retry]
+	19 -> 20 [label="go back and inspect the cubicles"]
+	20 -> 21 [label=ok]
+	21 -> 27 [label=STAF]
+	21 -> 22 [label=LBBY]
+	21 -> 23 [label=OFFI]
+	21 -> 24 [label=FCTR]
+	21 -> 25 [label=POWR]
+	21 -> 26 [label=HSNG]
+	22 -> 21 [label=retry]
+	23 -> 21 [label=retry]
+	24 -> 28 [label=bomb]
+	24 -> 29 [label=gun]
+	24 -> 30 [label=cheese]
+	25 -> 21 [label=retry]
+	26 -> 21 [label=retry]
+	27 -> 21 [label=retry]
+	28 -> 24 [label=retry]
+	29 -> 24 [label=retry]
+	30 -> 31 [label="hide inside a machine"]
+	30 -> 33 [label="jump down the elevator shaft"]
+	30 -> 32 [label="find a window"]
+	31 -> 30 [label=retry]
+	32 -> 30 [label=retry]
+	33 -> 0 [label=replay]
 }

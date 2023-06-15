@@ -1,6 +1,6 @@
 [
   {
-    "dialog": "welcome to td32",
+    "dialog": "welcome to td32 chapter 1",
     "options": [ [ 1, "play" ] ]
   },
   {
@@ -173,7 +173,10 @@
     "options": [ [ 30, "retry" ] ]
   },
   {
-    "dialog": "falling down the elevator shaft, you land on top of the elevator and climb into the lobby. it looks like everyone left to go check. you walk outside, taking in the early morning sunlight.\n so far this is the end of the game. more will come later.",
-	"options": [ [ 0, "replay"] ]
+    "dialog": "falling down the elevator shaft, you land on top of the elevator and climb into the lobby. it looks like everyone left to go check. you walk outside, taking in the early morning sunlight.",
+    "options": [
+      [ 0, "replay" ],
+      ["explosion", "exit"]
+    ]
   }
 ]

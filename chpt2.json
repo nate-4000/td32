@@ -1,0 +1,9 @@
+[
+  {
+    "dialog": "you have come back to the facility you escaped from.\n you have heard that another robot is trapped inside and needs help escaping.\n how do you enter?",
+    "options": [
+      [1, "run in with a gun"],
+      [2, "be sneaky"]
+    ]
+  }
+]
